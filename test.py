@@ -42,7 +42,6 @@ model_client = OpenAIChatCompletionClient(
 
 omodel_client = OpenAIChatCompletionClient(
     model="gemini-1.5-flash-8b",
-    api_key="AIzaSyBZrz2hrwVib3FdJhs_hfei5-qb0oaYBGM"
 )
 
 # Function that finds Inventory for a given Order
