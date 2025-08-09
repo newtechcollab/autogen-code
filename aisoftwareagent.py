@@ -45,10 +45,7 @@ model_client = OpenAIChatCompletionClient(
     base_url="https://api.githubcopilot.com/",
     #base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
     model="gpt-4o-2024-08-06",
-<<<<<<< HEAD
-    api_key="ghu_ybAqbrggmR0eoRu7IanIm2Yd3fAGOC2cFI7E",
-=======
->>>>>>> 94865721d2fe945ddb2bb7a7bbd3b71f4b62d5f7
+    api_key="",
 )
 
 # Create the primary agent.
