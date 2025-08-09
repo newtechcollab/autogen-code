@@ -114,7 +114,7 @@ async def process_request(request, github_token, user_query) -> str:
         #model="gpt-4o-2024-08-06",
         #api_key=token_for_user,
         model="gemini-2.5-flash",
-        api_key="",
+        api_key=os.getenv("GEMINI_API_KEY"),
     )
 
     # Github MCP Server details
